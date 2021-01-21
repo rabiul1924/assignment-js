@@ -65,6 +65,7 @@ console.log(countSecondTime);
 
 
 // 4 number is megaFriend
+//Found the LargestName 
 
 function megaFriend(array) {
   var longestWord = "";
