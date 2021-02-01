@@ -17,14 +17,14 @@ console.log(firstMeter);
 //phone value is 100
 //laptop value is 500
 
-function budgetCalculater (watch, phone, laptop) {
+function budgetCalculator (watch, phone, laptop) {
   var result = (watch*50) + (phone*100) + (laptop*500);
   return result;
 }
-var sum = budgetCalculater(1, 2, 5);
+var sum = budgetCalculator(1, 2, 5);
 console.log(sum);
 
-var sumSecond = budgetCalculater(5, 3, 2);
+var sumSecond = budgetCalculator(5, 3, 2);
 console.log(sumSecond);
 
 
